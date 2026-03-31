@@ -351,7 +351,7 @@
         <div class="group_system-header">
           <div class="group_system-title">
             <strong>${escapeHtml(state.inGroup ? groupName : 'Group Tools')}</strong>
-            <span>${state.inGroup ? `${escapeHtml(groupLeader || 'Unknown')} • ${Number(state.groupMeta?.memberCount || 0)} members` : 'Extra invite and leader controls inside the phone app.'}</span>
+            <span>${state.inGroup ? `${escapeHtml(groupLeader || 'Unknown')} • ${Number(state.groupMeta?.memberCount || 0)} members` : 'Group leader controls'}</span>
           </div>
           <div class="group_system-actions">
             <button class="group_system-btn" data-enhancer="refresh">Refresh</button>
